@@ -1,0 +1,9 @@
+  sudo mount -o remount,size=2G /tmp
+   sudo nano /etc/fstab
+   sudo mount -o remount /tmp
+  df -h
+  sudo reboot
+  sudo service jenkins restart
+  df -h
+  sudo service jenkins restart
+  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
