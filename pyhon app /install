@@ -1,0 +1,4 @@
+sudo yum install python3-pip -y
+pip  -V
+sudo yum install python3-virtualenv
+sudo yum install git -y
