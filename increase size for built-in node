@@ -1,5 +1,6 @@
   sudo mount -o remount,size=2G /tmp
    sudo nano /etc/fstab
+tmpfs /tmp tmpfs default,resize=1G,noatime,nosuid 0 0
    sudo mount -o remount /tmp
   df -h
   sudo reboot
